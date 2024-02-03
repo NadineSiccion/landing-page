@@ -41,6 +41,11 @@ button.no-border {
     min-width: 600px;
 }
 
+.introduction-container, .quote-container, .information-container, .call-to-action-container {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
 footer {
     text-align: center;
 }
@@ -179,8 +184,6 @@ img {
 .quote-container {
     display: flex;
     flex-direction: column;
-    margin-top: 64px;
-    margin-bottom: 64px;
 }
 
 blockquote {
