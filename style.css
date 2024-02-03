@@ -156,6 +156,10 @@ img {
     justify-content: space-evenly;
 }
 
+.information-item-container {
+    align-items: baseline;
+}
+
 .information-container h2 {
     font-weight: 900;
 }
