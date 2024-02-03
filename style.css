@@ -13,7 +13,7 @@ button {
     box-sizing: border-box;
     width: max-content;
     border: #fff solid 2px;
-    color: #fff;
+    color: #F9FAF8;
     background-color: #3882F6;
 }
 
@@ -47,6 +47,10 @@ footer {
 
 /* tweaking elements in header and introduction*/
 
+.word-mark {
+    font-weight: 900;
+    font-size: 24px;
+}
 
 .header {
     display: flex;
@@ -70,7 +74,7 @@ footer {
 .header ul a {
     cursor: pointer;
     text-decoration: none;
-    color: #fff
+    color: #F9FAF8;
 }
 
 .header ul a:hover {
@@ -92,10 +96,11 @@ footer {
 
 .introduction-container h1 {
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 900;
     color: #f9faf8;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
 }
 
 .introduction-container .text {
@@ -126,6 +131,8 @@ img {
 
 .information-container {
     text-align: center;
+    margin-top: 24px;
+    margin-bottom: 64px;
 }
 
 .information-container div {
@@ -165,15 +172,15 @@ img {
 
 .information-item div:hover {
     background-color: #3882F6;
-    color: #fff;
+    color: #F9FAF8;
 }
 
 /* blockquote */
 .quote-container {
     display: flex;
     flex-direction: column;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 blockquote {
@@ -200,7 +207,7 @@ blockquote {
 
 .call-to-action-box {
     background-color: #3882F6;
-    color: #fff;
+    color: #F9FAF8;
     border-radius: 6px;
     display: flex;
     justify-content: space-between;
@@ -221,5 +228,5 @@ blockquote {
 }
 
 .call-to-action-box .text > h3 {
-    color: #fff;
+    color: #F9FAF8;
 }
