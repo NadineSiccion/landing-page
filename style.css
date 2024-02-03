@@ -21,6 +21,9 @@ button.no-border {
     border: none;
 }
 
+footer {
+    text-align: center;
+}
 
 .blue-bg {
     background-color: #1f2937;
@@ -34,7 +37,7 @@ button.no-border {
     display: flex;
 }
 
-.blue-bg > *, .grey-bg > *, .white-bg {
+.blue-bg > *, .grey-bg > *, .white-bg, .header {
     width: 65vw;
     margin-left: auto;
     margin-right: auto;
@@ -46,22 +49,27 @@ button.no-border {
     margin-bottom: 64px;
 }
 
-footer {
-    text-align: center;
-}
-
 /* tweaking elements in header and introduction*/
 
 .word-mark {
     font-weight: 900;
     font-size: 24px;
+    display: inline;
+}
+
+.header-container {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .header {
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-between;
-    position: sticky;
     padding: 16px 0;
+    align-items: center;
 }
 
 .header ul {
@@ -80,6 +88,7 @@ footer {
     cursor: pointer;
     text-decoration: none;
     color: #F9FAF8;
+    transition: 0.3s;;
 }
 
 .header ul a:hover {
